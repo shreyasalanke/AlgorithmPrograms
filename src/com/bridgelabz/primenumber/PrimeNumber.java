@@ -5,13 +5,13 @@ import java.util.Scanner;
 public class PrimeNumber {
 	public static void main (String[] args)
 	   {		
-		System.out.println("\nPalindrome Numbers 1 to 1000 >>");  
+		System.out.println("\nPalindrome Numbers 1 to 1000 ");  
 		  for (int i = 1; i <= 1000; i++) {  
 		   if (Palindrome(i) == true) {  
 		    System.out.print(i + " ");  
 		   }  
 		  }  
-		  System.out.println("\nPrime Numbers 1 to 1000 >>");  
+		  System.out.println("\nPrime Numbers 1 to 1000 ");  
 		  for (int i = 1; i <= 1000; i++) {  
 		   if (Prime(i) == true) {  
 		    System.out.print(i + " ");  
