@@ -12,7 +12,7 @@ public class BubbleSort {
 		 
 		    int array[] = new int[num];
 		 
-		    System.out.println("Enter " + num + " integers: ");
+		    System.out.println("Enter " + num + " integer: ");
 		 
 		    for (i = 0; i < num; i++) 
 		      array[i] = input.nextInt();
